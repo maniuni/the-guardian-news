@@ -1,0 +1,53 @@
+<resources>
+    <!-- Application name -->
+    <string name="app_name">The Guardian News</string>
+
+    <!-- Empty list of news -->
+    <string name="empty_list">No news found.</string>
+
+    <!-- No internet connection -->
+    <string name="no_connection">No internet connection.</string>
+
+    <!-- Title of the settings menu -->
+    <string name="settings_menu_item">Settings</string>
+
+    <!-- Settings title -->
+    <string name="settings_title">News Settings</string>
+
+    <!-- Strings for news section -->
+    <string name="settings_section_label">Choose section</string>
+    <string name="settings_section_key" translatable="false">section</string>
+    <string name="settings_section_default" translatable="false">@string/settings_section_lifeandstyle_value</string>
+
+    <!-- Strings for Life and Style option -->
+    <string name="settings_section_lifeandstyle_label">Life and Style</string>
+    <string name="settings_section_lifeandstyle_value" translatable="false">lifeandstyle</string>
+
+    <!-- Strings for Politics option -->
+    <string name="settings_section_politics_label">Politics</string>
+    <string name="settings_section_politics_value" translatable="false">politics</string>
+
+    <!-- Strings for World option -->
+    <string name="settings_section_world_label">World</string>
+    <string name="settings_section_world_value" translatable="false">world</string>
+
+    <!-- Strings for Culture option -->
+    <string name="settings_section_culture_label">Culture</string>
+    <string name="settings_section_culture_value" translatable="false">culture</string>
+
+    <!-- Strings for Environment option -->
+    <string name="settings_section_environment_label">Environment</string>
+    <string name="settings_section_environment_value" translatable="false">environment</string>
+
+    <!-- Strings for Technology option -->
+    <string name="settings_section_tech_label">Technology</string>
+    <string name="settings_section_tech_value" translatable="false">technology</string>
+
+    <!-- Strings for Travel option -->
+    <string name="settings_section_travel_label">Travel</string>
+    <string name="settings_section_travel_value" translatable="false">travel</string>
+
+    <!-- Strings for All sections option -->
+    <string name="settings_section_all_label">All</string>
+    <string name="settings_section_all_value" translatable="false">search</string>
+</resources>

@@ -25,14 +25,14 @@ import java.util.List;
 public abstract class QueryUtils {
 
     /** Tag for the log messages */
-    public static final String LOG_TAG = QueryUtils.class.getSimpleName();
+    private static final String LOG_TAG = QueryUtils.class.getSimpleName();
 
     // The constructor is required but it will never be used
     // to make an instance of QueryUtils so it is private.
     private QueryUtils(){
     }
 
-    public static List<NewsItem> fetchNewsData(String requestUrl){
+    private static List<NewsItem> fetchNewsData(String requestUrl){
 
         // Create an URL object.
         URL url = createUrl(requestUrl);
@@ -68,7 +68,7 @@ public abstract class QueryUtils {
     }
 
     /** Make a HTTP connection using the URL object and return a String as a response. */
-    public static String makeHTTPRequest(URL url) throws IOException{
+    private static String makeHTTPRequest(URL url) throws IOException{
         String jsonResponse = "";
         if(url == null){
             return jsonResponse;
@@ -123,7 +123,7 @@ public abstract class QueryUtils {
      * Return a list of {@link NewsItem} objects that has been built up from
      * parsing a JSON response.
      */
-    public static ArrayList<NewsItem> extractNewsItemsFromJson(String jsonString){
+    private static ArrayList<NewsItem> extractNewsItemsFromJson(String jsonString){
         // Check if the json is null or empty in which case return early
         if(TextUtils.isEmpty(jsonString)){
             return null;

@@ -32,7 +32,7 @@ public abstract class QueryUtils {
     private QueryUtils(){
     }
 
-    private static List<NewsItem> fetchNewsData(String requestUrl){
+    public static List<NewsItem> fetchNewsData(String requestUrl){
 
         // Create an URL object.
         URL url = createUrl(requestUrl);

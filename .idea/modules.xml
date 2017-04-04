@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/The-Guardian-News.iml" filepath="$PROJECT_DIR$/The-Guardian-News.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/the-guardian-news.iml" filepath="$PROJECT_DIR$/the-guardian-news.iml" />
     </modules>
   </component>
